@@ -342,6 +342,6 @@ addEntrypoint({
 });
 
 const port = Number(process.env.PORT ?? 3000);
-console.log(`🎰 Polymarket Agent running on port ${port}`);
+console.log(`🎰 Polymarket Agent v1.0.1 running on port ${port}`);
 
 export default { port, fetch: app.fetch };
